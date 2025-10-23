@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us – ChillSpot Travel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #fdf2f8, #fde2e4);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #A18CD1, #FD6585);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      border-radius: 0 0 40px 40px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      animation: fadeDown 0.8s ease;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+    }
+
+    nav {
+      background: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      gap: 30px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #FD6585;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #A18CD1;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: 40px auto;
+      background: linear-gradient(135deg, #fff0f6, #fde2e4, #f9d4f0);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      animation: fadeInUp 0.8s ease;
+    }
+
+    h2 {
+      color: #FD6585;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .about-section p {
+      line-height: 1.8;
+      font-size: 1.05rem;
+      text-align: justify;
+    }
+
+    .team {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .team h3 {
+      color: #FD6585;
+      margin-bottom: 15px;
+    }
+
+    .team-members {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .member {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      width: 220px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .member:hover {
+      transform: scale(1.05);
+    }
+
+    .member img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .member h4 {
+      margin: 5px 0;
+      color: #A18CD1;
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>About ChillSpot Travel</h1>
+    <p>Where Every Journey Feels Like a Dream ✨</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="content">
+    <h2>🌍 Our Story</h2>
+    <div class="about-section">
+      <p>
+        Welcome to <strong>ChillSpot Travel</strong> — your ultimate partner in creating unforgettable travel experiences across Pakistan.
+        We specialize in luxurious, safe, and memorable trips to breathtaking destinations like <strong>Hunza</strong>, <strong>Skardu</strong>, 
+        <strong>Gilgit</strong>, <strong>Lahore</strong>, and <strong>Islamabad</strong>.
+      </p>
+
+      <p>
+        Founded in 2024, ChillSpot Travel began with a simple mission: 
+        <em>to bring travelers closer to nature and culture with comfort and care.</em>  
+        From romantic getaways to adventure-filled journeys, our goal is to make every moment of your trip truly special.
+      </p>
+
+      <p>
+        Our travel experts and local guides work together to ensure you explore hidden gems, taste authentic cuisine, and enjoy 
+        top-class hospitality — because your happiness is our destination! 💫
+      </p>
+    </div>
+
+    <div class="team">
+      <h3>👥 Meet Our Team</h3>
+      <div class="team-members">
+        <div class="member">
+          <img src="hareemshazad.jpg" alt="Team Member">
+          <h4>Hareem Shazad</h4>
+          <p>Founder & Creative Director</p>
+        </div>
+        <div class="member">
+          <img src="alisha.jpg" alt="Team Member">
+          <h4>Alisha Khan</h4>
+          <p>Marketing & Partnerships</p>
+        </div>
+        <div class="member">
+          <img src="ahmedraza.jpg" alt="Team Member">
+          <h4>Ahmed Raza</h4>
+          <p>Travel Operations Manager</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
